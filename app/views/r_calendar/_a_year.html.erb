@@ -1,0 +1,10 @@
+<div>
+  <ul class="monthly_calendar">
+  <%weekday_names = ['日', '月', '火', '水', '木', '金', '土']%>
+  <%closed_days = @result.map{|r| r.date}%>
+  <%for month_number in 1..12 do%>
+    <li>
+      <%=render '_a_month.html.erb', :year_number => year_number, :month_number => month_number%>
+    </li>
+  <%end%>
+</ul>

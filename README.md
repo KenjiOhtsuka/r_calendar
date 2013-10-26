@@ -1,6 +1,6 @@
 # RCalendar
 
-TODO: Write a gem description
+calendar written in ruby
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+
 
 ## Contributing
 

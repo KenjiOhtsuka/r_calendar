@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = RCalendar::VERSION
   spec.authors       = ["Kenji Ohtsuka"]
   spec.email         = ["kok.fdcm@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{s}
+  spec.summary       = %q{calendar that can be used in RoR}
   spec.homepage      = ""
   spec.license       = "MIT"
 
