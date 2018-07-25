@@ -8,10 +8,10 @@ Gem::Specification.new do |spec|
   spec.version       = RCalendar::VERSION
   spec.authors       = ["Kenji Ohtsuka"]
   spec.email         = ["kok.fdcm@gmail.com"]
-  spec.description   = %q{s}
-  spec.summary       = %q{calendar that can be used in RoR}
+  #spec.description   = %q{s}
+  spec.summary       = %q{script to generate calendar array}
   spec.homepage      = ""
-  spec.license       = "MIT"
+  spec.license       = "GPL-3.0"
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
